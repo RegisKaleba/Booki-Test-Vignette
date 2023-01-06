@@ -1,0 +1,113 @@
+body {
+
+    background-color: black;
+    font-family: Raleway;
+
+}
+
+.blue {
+
+    color: #0065FC;
+}
+
+.grey {
+
+    color: #F2F2F2;
+
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.accomodation_h3 {
+
+    padding-left: 3%;
+    padding-bottom: 1%;
+
+}
+
+h4 {
+
+    font-weight: bold;
+}
+
+.content {
+
+    display: flex;
+}
+
+.inline {
+
+
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accomodationBackground {
+
+    
+    width: 66%;
+    height: 600px;
+    border-radius: 25px;
+    padding: 1%;
+    background: #d12323;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+.popularBackground {
+
+    width: 30%;
+    height: 600px;
+    border-radius: 25px;
+    padding: 1%;
+    background: #1b296b;
+    margin-right: 3%;
+
+}
+
+
+
+
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    Width: 28%;
+    Height: 230px;
+    border-radius: 20px; 
+    border: 5px solid #FFFFFF;
+    background: #FFFFFF;
+
+}
+
+.cardImage{
+
+    width: 100%;
+    height: 66%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.cardDescription {
+
+    width: 80%;
+    font-size: 65%;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-bottom: 500px;
+    margin-top: -5px;
+}
+
+.star  {
+
+    font-size: larger;
+}
