@@ -33,31 +33,44 @@ h4 {
     font-weight: bold;
 }
 
-.content {
-
-    display: flex;
-}
+/* Ici les direction FB*/
 
 .inline {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineFooter {
 
 
     padding-left: 3%;
     padding-right: 3%;
     display: flex;
     flex-direction: row;
-    display: flex;
     justify-content: space-between;
 }
 
+.column {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Sections et leur contenu*/
+
 .accomodationBackground {
 
+    /* Img en backgroud ?*/
     
     width: 66%;
     height: 600px;
     border-radius: 25px;
     padding: 1%;
     background: #d12323;
-    margin-left: 3%;
+    margin-left: 200px;
     margin-right: 4%;
 }
 
@@ -68,8 +81,21 @@ h4 {
     border-radius: 25px;
     padding: 1%;
     background: #1b296b;
-    margin-right: 3%;
+    margin-right: 200px;
 
+}
+
+.activitiesBackground {
+
+    
+    width: 1500px;
+    height: 600px;
+    border-radius: 25px;
+    background: #d12323;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -81,7 +107,7 @@ h4 {
     display: flex;
     flex-direction: column;
     Width: 28%;
-    Height: 230px;
+    Height: 190px;
     border-radius: 20px; 
     border: 5px solid #FFFFFF;
     background: #FFFFFF;
@@ -91,7 +117,7 @@ h4 {
 .cardImage{
 
     width: 100%;
-    height: 66%;
+    height: 60%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 
@@ -110,4 +136,101 @@ h4 {
 .star  {
 
     font-size: larger;
+}
+
+.footerBooki {
+
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #F2F2F2;
+    background-size: cover;
+
+}
+
+/* Test Media Queries*/
+
+
+@media screen and (max-width: 1800px) {
+
+    .activitiesBackground {
+
+        width: 1300px;
+        background-color: #2a9444;
+        
+    }
+
+}
+
+@media screen and (max-width: 1700px) {
+    p {
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
+
+    .activitiesBackground {
+
+        width: 900px;
+        padding-left: 100px ;
+        padding-right: 100px;
+        background-color: #2a9444;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+    .activitiesBackground {
+
+        width: 900px;
+        padding-left: 100px ;
+        padding-right: 100px;
+        background-color: #af2e8f;
+    }
+
+}
+
+/* Pourquoi à partir de 1500, seul "auto" semble convenir ?*/
+
+@media screen and (max-width: 1500px) {
+
+    .activitiesBackground {
+        width: 900px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #0065FC;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .activitiesBackground {
+
+        width: 900px;
+        padding-left: 100px ;
+        padding-right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .activitiesBackground {
+
+        width: 900px;
+        padding-left: 100px ;
+        padding-right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .activitiesBackground {
+
+        width: 900px;
+        padding-left: 100px ;
+        padding-right: 100px;
+    }
+
 }
