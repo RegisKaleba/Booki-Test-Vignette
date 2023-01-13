@@ -79,7 +79,6 @@ h4 {
 
 .popularCards {
 
-    
     background-image: url(https://www.ionos.fr/digitalguide/fileadmin/_processed_/4/a/csm_cloud-speicher-dienste-t_8adf7bb9bc.jpg) ;
     background-repeat: no-repeat;
     background-size: 33% 100%;
@@ -142,10 +141,12 @@ h4 {
 
 .popularCardsDescription {
 
-    
+    background-color: #af2e8f;
+    width: 200px;
+    height: 120px;
     margin-left: 35%;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 1%;
+   
 
 }
 
