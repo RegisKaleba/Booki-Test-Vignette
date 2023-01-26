@@ -12,6 +12,24 @@ body {
 
 }
 
+.Test {
+
+    display: block;
+}
+
+.Test1 {
+
+    display: block;
+    margin-top: -10%;
+}
+
+.Test3 {
+
+    display: block;
+    margin: 20% 0 0 0;
+
+}
+
 .blue {
 
     color: #0065FC;
@@ -64,6 +82,14 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.inline1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .inline2 {
@@ -173,7 +199,7 @@ h4 {
 
     height: 600px;
     border-radius: 25px;
-    background: #FFFFFF;
+    background: #833232;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -319,7 +345,7 @@ h4 {
 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
     
     .inlineAccomodationPopular {
         
@@ -334,29 +360,130 @@ h4 {
     }
     .popularBackground {
 
-        width:max-content;
+        width:auto;
         height: 250px;
+        margin-left: 0%;
+        margin-bottom: 15px;
     
     }
-    .accomodationBackground {
 
-        width:max-content;
- 
+    .cardsPopular {
+
+        width: 30%;
+        height: 150px;
 
     }
 
-    /*.activitiesBackground {
-        
+    .accomodationBackground {
+
+        width: auto;
+        margin-right: 0%;
+        margin-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
      
-        
-    }*/
+    }
+
+    
     .content {
 
-        width: 1000px;
+        width: 1200px;
+        margin-left: 2%;
+        margin-right: 2%;
 
    }
 
 }
+
+@media screen and (max-width: 1000px) {
+
+    .content {
+
+        width: 1000px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+
+    .columnPopular {
+
+    flex-direction: column;    
+
+}
+
+    .popularBackground {
+
+        background-color: aqua;
+        justify-content: space-between;
+        height: 600px;
+    }
+
+    .cardsPopular {
+
+        width: 90%;
+        height: 135px;;
+
+    }
+
+    .cardDescriptionPopular {
+
+        margin-top: 0%;
+    }
+
+}
+
+
+@media screen and (max-width: 926px) {
+
+    .content {
+        width: 926px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    .accomodationBackground {
+
+        background-color: #0065FC;
+
+    }
+
+    .inlineAccomodation926 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    
+    .inline1 {
+
+        flex-direction: column;
+        margin-left: -5%;
+        justify-content: space-between;
+    }
+
+    .inline2 {
+
+        flex-direction: column;
+        margin-top: 0%;
+        margin-right: 5%;
+    }
+
+    .cards {
+
+            width: 150%;
+            height: 140px;
+    }
+
+   .space {
+
+        margin-bottom: 10%;
+
+   }
+
+}
+
 
 
 /* Pourquoi à partir de 1500, seul "auto" semble convenir ?*/
@@ -397,5 +524,37 @@ Herbergement marges
 
 --> Semaine 3 : Responsive (Actuel)
 
-   --> 23/01 ( /!\La clef, le 1400 du content ?)
+   --> 23/01 ( /!\La clef, le 1400 du content ? --> Oui !)
+   --> 24/01 (Teste Popular Card en display block !)
 */
+
+
+/* TEST TEST TEST*/
+
+
+.testCard {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        Height: 200%;
+        border-radius: 20px; 
+        border: 5px solid #FFFFFF;
+        background: #FFFFFF;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px #0000002e;
+       
+    
+}
+
+.columnTest {
+
+    width: 20%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
