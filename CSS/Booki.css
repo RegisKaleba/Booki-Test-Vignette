@@ -346,6 +346,13 @@ h4 {
 }
 
 @media screen and (max-width: 1440px) {
+
+    .content {
+
+        width: 1200px;
+        margin: 0 auto;
+
+   }
     
     .inlineAccomodationPopular {
         
@@ -385,23 +392,26 @@ h4 {
     }
 
     
+    
+
+}
+
+@media screen and (max-width: 1220px) {
+
     .content {
 
-        width: 1200px;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 1000px;
+        margin: 0 auto;
 
    }
-
 }
 
 @media screen and (max-width: 1000px) {
 
     .content {
 
-        width: 1000px;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 926px;
+        margin: 0 auto;
 
     }
 
@@ -436,9 +446,8 @@ h4 {
 @media screen and (max-width: 926px) {
 
     .content {
-        width: 926px;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 800px;
+        margin: 0 auto;
 
     }
     .accomodationBackground {
@@ -484,13 +493,24 @@ h4 {
 
 }
 
+@media screen and (max-width: 810px) {
 
+    .content {
 
-/* Pourquoi à partir de 1500, seul "auto" semble convenir ?*/
+        width: 768px;
+        margin: 0 auto;
 
+   }
+}
 
+@media screen and (max-width: 768px) {
 
+    .content {
+        width: 768px;
+        margin: 0 auto;
 
+    }
+}
 
 /* Windows live serveur - VSC
 
