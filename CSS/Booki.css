@@ -5,10 +5,44 @@ body {
 
 }
 
+.header {
+
+    margin-bottom: 75px;
+}
+
 .content {
 
     width: 1400px;
     margin: 0 auto;
+
+}
+
+.iconResarch {
+
+    background-color: #833232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 25px 0 0 25px;
+    
+    
+
+}
+
+.buttonResearch {
+ 
+    background-color: #0065FC;
+    color: #FFFFFF;
+    border-radius: 0 25px 25px 0 ;
+    border: none;
+
+}
+
+.researchBar {
+
+    height: 50px;
+    border: none;
 
 }
 
@@ -77,6 +111,13 @@ h4 {
     justify-content: space-between;
 }
 
+.inlineResearchBar {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
 .inlineAccomodationPopular {
 
     display: flex;
@@ -128,6 +169,8 @@ h4 {
 
 
 /* Sections et leur contenu*/
+
+
 
 .accomodationBackground {
 
@@ -546,6 +589,11 @@ Herbergement marges
 
    --> 23/01 ( /!\La clef, le 1400 du content ? --> Oui !)
    --> 24/01 (Teste Popular Card en display block !)
+
+   --> Notions Viewport
+   --> Kraken et GitGUI
+    --> Passer cpde au validateur
+
 */
 
 
