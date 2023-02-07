@@ -88,12 +88,14 @@ body {
 .Test {
 
     display: block;
+    margin-top: 25px;
 }
 
 .Test1 {
 
     display: block;
-    margin-top: -10%;
+    margin-top: -10px;
+ 
 }
 
 .Test3 {
@@ -135,6 +137,11 @@ body {
 h4 {
 
     font-weight: bold;
+}
+
+h5 {
+
+    font-weight: 900;
 }
 
 .grow  { 
@@ -235,6 +242,13 @@ h4 {
     justify-content: space-between;
 }
 
+.inlineLogoNav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .inline500 {
 
     display: flex;
@@ -248,6 +262,28 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: start;
+}
+
+.inlineActivities {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inlineFilters {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineDuo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .inlineResearchBar {
@@ -287,7 +323,7 @@ h4 {
     padding-right: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .column {
@@ -378,8 +414,8 @@ h4 {
 
 
 .activitiesBackground {
-
-    height: 600px;
+    width: 100%;
+    height: 500px;
     border-radius: 25px;
     background: #ffffff;
     margin-top: 50px;
@@ -390,64 +426,42 @@ h4 {
 
     display: flex;
     flex-direction: column;
-    Width: 280px;
-    Height: 540px;
-    border-radius: 20px; 
+    border-radius: 25px;
+    Width: 250px;
+    Height: 450px;
     box-shadow: 0 0 20px #0000002e;
-    background: #FFFFFF;
+   
 
 }
 
-.cardsActivities2 {
+.testCard {
 
-    display: flex;
-    flex-direction: column;
-    Width: 280px;
-    Height: 300px;
+    width: 80%;
+    Height: 400px;
     border-radius: 20px; 
-    box-shadow: 0 0 20px #0000002e;
     background: #FFFFFF;
-
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #0000002e;
+       
+    
 }
 
-.cardsActivities3 {
 
-    display: flex;
-    flex-direction: column;
-    Width: 280px;
-    Height: 200px;
-    border-radius: 20px; 
-    box-shadow: 0 0 20px #0000002e;
-    background: #FFFFFF;
-
-}
 
 .cardImageActivities {
 
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 
 }
 
-.cardImageActivities2 {
 
-    width: 100%;
-    height: 82%;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
 
-}
 
-.cardImageActivities3 {
-
-    width: 100%;
-    height: 73%;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-
-}
 
 .cardDescriptionActivities {
 
@@ -503,8 +517,7 @@ h4 {
 
 .footerBooki {
 
-    padding-left: 150px;
-    padding-right: 150px;
+   
     background-color: #F2F2F2;
     
 
@@ -517,7 +530,7 @@ h4 {
 /* Test Media Queries*/
 
 
-
+ /*
 @media screen and (max-width: 1700px) {
     p {
         color: red;
@@ -588,7 +601,9 @@ h4 {
    }
 }
 
-@media screen and (max-width: 1000px) {
+*/
+
+@media screen and (max-width: 992px) {
 
     .content {
 
@@ -597,23 +612,55 @@ h4 {
 
     }
 
+    .filter {
+
+        margin-left: 30px;
+
+    }
+
     .columnPopular {
 
-    flex-direction: column;    
+    flex-direction: row;    
 
+}
+
+    .accomodationBackground {
+
+        width: auto;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+ 
 }
 
     .popularBackground {
 
-        background-color: aqua;
-        justify-content: space-between;
-        height: 600px;
+        width:auto;
+        height: 250px;
+        margin-left: 0%;
+        margin-bottom: 15px;
+    
+    }
+
+
+    .inlineAccomodationPopular {
+        
+        flex-direction: column;
+
+
+}
+    .cards {
+
+        width: 30%;
+
     }
 
     .cardsPopular {
 
-        width: 90%;
-        height: 135px;;
+        width: 30%;
+        height: 135px;
 
     }
 
@@ -622,67 +669,30 @@ h4 {
         margin-top: 0%;
     }
 
-}
-
-
-@media screen and (max-width: 926px) {
-
-    .content {
-        width: 800px;
-        margin: 0 auto;
-
-    }
-    .accomodationBackground {
-
-        background-color: #0065FC;
+    .Test {
+        margin-top: 0px;
 
     }
 
-    .inlineAccomodation926 {
+    .Test2 {
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        margin-top: 35px;
+    }
 
+    .Test3 {
+
+        margin-top: 55px;
     }
 
     
-    .inline1 {
 
-        flex-direction: column;
-        margin-left: -5%;
-        justify-content: space-between;
+    .cardsActivities {
+
+        width: 20%;
+        height: 300px;
     }
 
-    .inline2 {
-
-        flex-direction: column;
-        margin-top: 0%;
-        margin-right: 5%;
-    }
-
-    .cards {
-
-            width: 150%;
-            height: 140px;
-    }
-
-   .space {
-
-        margin-bottom: 10%;
-
-   }
-
-}
-
-@media screen and (max-width: 810px) {
-
-    .content {
-
-        width: 768px;
-        margin: 0 auto;
-
-   }
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -691,6 +701,154 @@ h4 {
         width: 768px;
         margin: 0 auto;
 
+    }
+
+    .centray {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .inlineLogoNav {
+
+        flex-direction: column;
+    }
+
+    .Logo {
+        
+       
+        width: 125px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .inlineFilter {
+
+        flex-direction: column;
+    }
+
+    .filterTitle {
+
+        justify-content: flex-start;
+    }
+
+    .inlineFilters {
+
+        flex-direction: column;
+    }
+
+    .inlineDuo {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    .filter {
+
+        width: 200px;
+        margin-left: 0%;
+    }
+
+    
+
+    .filterEconomyRomantic {
+
+        margin-right: 30px;
+    }
+
+    .filterFamily {
+
+        margin-right: 70px;
+    }
+
+    .inlineAccomodationPopular {
+        
+        flex-direction: column-reverse;
+
+
+    }
+
+    .popularBackground {
+
+        height: auto;
+
+    }
+
+    .columnPopular {
+
+        flex-direction: column;
+    }
+
+    .Test3 {
+
+        margin-top: 35px;
+    }
+
+
+    .popularBackground {
+
+        height: auto;
+    }
+    .cardsPopular {
+        
+        width: 335px;
+        
+    }
+
+    .inlineActivities {
+
+        flex-direction: column;
+        
+
+    }
+
+    .activitiesBackground {
+        background: #ffffff;
+        height: 1300px;
+        width: 762px;
+
+    }
+
+    .cardsActivities {
+
+        width: 335px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+
+    }
+
+
+    .accomodationBackground {
+
+        height: 1600px;
+
+    }
+    .inline1 {
+
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .inline2 {
+
+        flex-direction: column;
+        margin-top: 0%;
+        
+    }
+
+    .cards {
+
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
     }
 }
 
@@ -739,57 +897,4 @@ Herbergement marges
 /* TEST TEST TEST*/
 
 
-.testCard {
 
-        display: flex;
-        flex-direction: column;
-        width: 96%;
-        Height: 100%;
-        border-radius: 20px; 
-        border: 5px solid #FFFFFF;
-        background: #FFFFFF;
-        margin: 0 auto;
-        margin-top: 10px;
-        
-        box-shadow: 0 0 20px #0000002e;
-       
-    
-}
-
-.cardImageActivities2 {
-
-    width: 100%;
-    height: 70%;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-
-}
-
-.testCard2 {
-
-    display: flex;
-    flex-direction: column;
-    width: 96%;
-    Height: 40%;
-    border-radius: 20px; 
-    border: 5px solid #FFFFFF;
-    background: #FFFFFF;
-    margin: 0 auto;
-    margin-top: 10px;
-    
-    box-shadow: 0 0 20px #0000002e;
-   
-
-}
-
-
-
-.columnTest {
-
-    width: 20%;
-    height: 540px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
