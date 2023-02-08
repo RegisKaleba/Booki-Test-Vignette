@@ -150,6 +150,9 @@ h5 {
 .grow:hover { 
     transform: scale(1.05); }
 
+
+    /* Header*/
+
 .filter {
 
     border-radius: 0 25px 25px 0;
@@ -348,9 +351,6 @@ h5 {
 
 
 .accomodationBackground {
-
-    /* Img en backgroud ?*/
-    
     width: 66%;
     height: 600px;
     border-radius: 25px;
@@ -359,7 +359,10 @@ h5 {
     margin-right: 15px;
 }
 
+
+
 /*Partie "Poupulaire" */
+
 
 
 .cardsPopular {
@@ -475,6 +478,15 @@ h5 {
 
 /* Partie hebergement*/
 
+.accomodationBackground {
+    width: 66%;
+    height: 600px;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #F2F2F2;
+    margin-right: 15px;
+}
+
 .cards {
 
     display: flex;
@@ -523,85 +535,7 @@ h5 {
 
 }
 
-
-
-
-
-/* Test Media Queries*/
-
-
- /*
-@media screen and (max-width: 1700px) {
-    p {
-        color: red;
-        background-color: black;
-    }
-
-
-}
-
-@media screen and (max-width: 1440px) {
-
-    .content {
-
-        width: 1200px;
-        margin: 0 auto;
-
-   }
-    
-    .inlineAccomodationPopular {
-        
-        flex-direction: column-reverse;;
-
-
-    }
-    .columnPopular {
-        
-        flex-direction: row;
-
-    }
-    .popularBackground {
-
-        width:auto;
-        height: 250px;
-        margin-left: 0%;
-        margin-bottom: 15px;
-    
-    }
-
-    .cardsPopular {
-
-        width: 30%;
-        height: 150px;
-
-    }
-
-    .accomodationBackground {
-
-        width: auto;
-        margin-right: 0%;
-        margin-top: 15px;
-        padding-left: 25px;
-        padding-right: 25px;
-     
-    }
-
-    
-    
-
-}
-
-@media screen and (max-width: 1220px) {
-
-    .content {
-
-        width: 1000px;
-        margin: 0 auto;
-
-   }
-}
-
-*/
+/* Media Querries*/
 
 @media screen and (max-width: 992px) {
 
@@ -851,50 +785,3 @@ h5 {
         margin-bottom: 50px;
     }
 }
-
-/* Windows live serveur - VSC
-
-chat GPT - IA code
-
-pseudo class first item
-
-éliminer largeur - marge 0 auto
-
-cascading Style sheet
-
-un bloc Star - Sprite ? CSS ---> Bonus
-
-Fixer à 1400px en largeur - margin 0 auto
-
-Ne pas fixer Height - 
-
-*/
-
-/* Bootstrap - CA
-
-Espacement colone
-
-MJ
-
-Espacement titre-Blocs
-
-Herbergement marges
-
-.growhover --> Transition
-
---> Semaine 3 : Responsive (Actuel)
-
-   --> 23/01 ( /!\La clef, le 1400 du content ? --> Oui !)
-   --> 24/01 (Teste Popular Card en display block !)
-
-   --> Notions Viewport
-   --> Kraken et GitGUI
-    --> Passer cpde au validateur
-
-*/
-
-
-/* TEST TEST TEST*/
-
-
-
